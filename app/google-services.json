@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "428536067588",
+    "firebase_url": "https://chatmessage-1eaf3.firebaseio.com",
+    "project_id": "chatmessage-1eaf3",
+    "storage_bucket": "chatmessage-1eaf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428536067588:android:a69b480d4dfe591d8b6751",
+        "android_client_info": {
+          "package_name": "com.example.chatmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428536067588-9ll7pvm2nqrmgbka0kj520aj8lknjr08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAohR-yfT3kYHcWHdmvJSinKRDQlplUqes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428536067588-9ll7pvm2nqrmgbka0kj520aj8lknjr08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
