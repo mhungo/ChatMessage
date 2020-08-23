@@ -33,7 +33,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp"
         android:background="@color/common_google_signin_btn_text_dark_default"
@@ -56,11 +56,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="8"
-            android:hint="Enter Message"
+            android:hint="Aa"
             android:paddingLeft="10dp"
             android:paddingTop="16dp"
             android:paddingRight="10dp"
-            android:paddingBottom="12dp" />
+            android:paddingBottom="12dp" />s
 
         <ImageButton
             android:id="@+id/chat_send_btn"

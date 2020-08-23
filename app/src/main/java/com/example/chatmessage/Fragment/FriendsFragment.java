@@ -32,6 +32,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import io.reactivex.internal.util.BackpressureHelper;
 
 
 public class FriendsFragment extends Fragment {
@@ -47,6 +48,7 @@ public class FriendsFragment extends Fragment {
     private String mCurrent_user_id;
 
     private View mMainView;
+
 
 
 
@@ -72,8 +74,11 @@ public class FriendsFragment extends Fragment {
         mUsersDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
         mUsersDatabase.keepSynced(true);
 
+
         mFriendsList.setHasFixedSize(true);
         mFriendsList.setLayoutManager(new LinearLayoutManager(getContext()));
+
+
 
         // Inflate the layout for this fragment
         return mMainView;
@@ -232,6 +237,8 @@ public class FriendsFragment extends Fragment {
 
         }
     }
+
+
 
 
 

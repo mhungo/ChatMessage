@@ -58,7 +58,9 @@ public class UsersActivity extends AppCompatActivity {
         mToolbar = findViewById(R.id.users_appBar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Mọi người");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+
+
 
         mUsersDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
 
@@ -123,6 +125,7 @@ public class UsersActivity extends AppCompatActivity {
         };
         mUsersList.setAdapter(firebaseRecyclerAdapter);
     }
+
 
     @Override
     protected void onStop() {
